@@ -1,0 +1,22 @@
+.superclass {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: #EA101E; /* как смотреть цвет рамок и др фигур*/
+}
+span {
+	text-decoration: underline;
+	color: #0E15A0;
+}
+img {
+	border: 4px double deeppink;
+	width: 300px;	
+}
+a {
+	color: #006400;
+	} /* почему когда я прописываю цвет в селекторе ol то у меня красится только порядочный номер,
+	 а когда ввел цвет для селектора "а" тогда покрасился и сам текст*/ 
+a:hover {
+	text-decoration: none;
+}
