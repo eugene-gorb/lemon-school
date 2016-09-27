@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrapper {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 2px dotted black;
+	border-right: 2px dotted black;
+}
+.header-top {
+	text-align: left;
+	margin-left: 30px;
+}
+.hometask-logo {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+.hometask-logo span {
+	display: block;
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.header-nav {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 0 30px;
+}
+nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+.header-nav a {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+}
+.header-nav a:hover {
+	background-color: black;
+	color: white;
+}
+.content {
+	padding: 30px;
+}
+.content h1,
+.contenr h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content h1 {
+	font-size: 40px;
+}
+.content h2 {
+	font-size: 30px;
+}
+.content p {
+	font-size: 23px;
+}
+.content img {
+	width: 1110px;
+}
+.eagle-nav {
+	width:100px;
+	box-sizing: border-box;
+}
+footer {
+    background-color: black;
+    color: white;
+   	padding:30px;
+}
+.footer-nav {
+    text-align: center;
+    font-size: 12px;
+}
+.footer-nav li {
+    padding: 0 10px;
+}
+.footer-nav a {
+	color: inherit;
+	text-decoration: none;
+}
+.footer-nav a:hover {
+    border-bottom: 1px dashed white;
+}
