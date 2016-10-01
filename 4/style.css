@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.products {
+			font-size: 0px;
+			width: 100%;
+			margin-top: 50px;
+}
+.product {
+			height: 100%;
+			background-color: red;
+			width: 33.32%;
+			margin-bottom: 10px;
+			display: inline-block;
+			font-size: 60px;
+			text-align: center;
+			border-right: 1px solid yellow;
+}
