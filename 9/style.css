@@ -1,0 +1,176 @@
+@import "../normalize.css";
+* {
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 30px;
+	vertical-align: middle;
+	position: relative;
+}
+ul,
+li {
+	list-style-type: none;
+}
+.link-1::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 495px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-1:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 990px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 480px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 960px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-3::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 480px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-3:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 960px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2-1::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 350px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2-1:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 700px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2-2::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 350px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2-2:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 700px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2-3::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 350px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2-3:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 700px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2-3-1::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 270px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2-3-1:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 540px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
+.link-2-4::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 350px;
+	bottom: -2px;
+	left: 0;
+	background-color: #000;
+}
+.link-2-4:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 700px;
+	bottom: -2px;
+	right: 0;
+	background-color: #000;
+}
