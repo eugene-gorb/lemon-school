@@ -1,0 +1,15 @@
+/*@import "../normalize.css";*/
+.press {
+  background: #fff;
+  color: #000;
+  height: 80px;
+  line-height: 80px;
+  width: 400px;
+  border-radius: 100px;
+  box-shadow: 0 0 0 3px #FFB6C1, inset 0 0 30px 30px #FFB6C1;
+  border: 3px solid #fff;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+

@@ -1,0 +1,32 @@
+/*@import "../normalize.css";*/
+.bat1, 
+.bat2,
+.bat3 {
+	width: 250px;
+	height: 80px;
+	border: 7px solid #000;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.bat1::before, 
+.bat2::before, 
+.bat3::before {
+	content: "";
+	position: relative;
+	border-top: 25px solid;
+	border-left: 25px solid;
+	top: 44px;
+	right: -250px;
+}
+
+.bat1 {
+	box-shadow: inset 80px 0 0 0px #f00;
+}
+.bat2 {
+	box-shadow: inset 160px 0 0 0 #ff0;
+}
+.bat3 {
+	background: #008000;
+}
+
+	

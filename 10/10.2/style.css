@@ -1,0 +1,29 @@
+@import "../normalize.css";
+.green {
+  background: #080;
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  width: 400px;
+  text-align: center;
+}
+
+.green::before,
+.green::after {
+  background: #080;
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 5px;
+}
+
+.green::before {
+  left: -5px;
+  top: 5px;
+}
+
+.green::after {
+  top: 5px;
+  right: -5px;
+}
